@@ -1,0 +1,5 @@
+fastai
+torch
+torchmetrics
+pandas
+tqdm
