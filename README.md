@@ -60,14 +60,15 @@ To develop a predictive model for classifying crimes based on historical data us
 
 ---
 
-##  Performance Metrics
+## Performance Metrics
 
- Model         Accuracy  Precision  Recall  F1 Score 
------------------------------------------------------
- BP (Backpropagation)  46.47    18.83      11.22   10.28   
- QuickProp     46.38    18.24      11.25   10.29   
+| Model              | Accuracy (%) | Precision | Recall | F1 Score |
+|--------------------|--------------|-----------|--------|----------|
+| BP (Backpropagation) | 46.47        | 18.83     | 11.22  | 10.28    |
+| QuickProp          | 46.38        | 18.24     | 11.25  | 10.29    |
 
- Note: Results are affected by data imbalance and limited features.
+> **Note:** Results are affected by data imbalance and limited features.
+
 
 ---
 
