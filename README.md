@@ -19,16 +19,24 @@ To develop a predictive model for classifying crimes based on historical data us
 - Records: 7.2 million  
 - Format: CSV
 
-### Original  Reduced Crime Categories
 
- Group                   Merged Types Example 
-----------------------------------------------
- Forbidden Practices     Narcotics, Prostitution, Gambling 
- Theft                   Robbery, Burglary, Deceptive Practice 
- Criminal Assault        Homicide, Sexual Offense, Child Offense 
- Public Peace Violation  Arson, Intimidation, Weapons 
+> **Note:**  
+> The raw dataset `rows.csv` is not stored locally in this repository.  
+> It is automatically downloaded from the official Chicago data portal using the following command inside the notebook:
 
----
+```python
+!wget "https://data.cityofchicago.org/api/views/ijzp-q8t2/rows.csv"
+
+
+### Original → Reduced Crime Categories
+
+| Group                   | Merged Types Example                             |
+|-------------------------|--------------------------------------------------|
+| Forbidden Practices     | Narcotics, Prostitution, Gambling                |
+| Theft                   | Robbery, Burglary, Deceptive Practice           |
+| Criminal Assault        | Homicide, Sexual Offense, Child Offense         |
+| Public Peace Violation  | Arson, Intimidation, Weapons                    |
+
 
 ##  Data Preprocessing
 
@@ -51,12 +59,14 @@ To develop a predictive model for classifying crimes based on historical data us
 
 ### Training Configuration
 
- Parameter      Value           
----------------------------------
- Epochs         1                
- Batch Size     64               
- Optimizer      Adam / QuickProp 
- Split          95 training / 5 validation 
+### Training Configuration
+
+| Parameter     | Value                    |
+|---------------|---------------------------|
+| Epochs        | 1                         |
+| Batch Size    | 64                        |
+| Optimizer     | Adam / QuickProp          |
+| Split         | 95% training / 5% validation |
 
 ---
 
