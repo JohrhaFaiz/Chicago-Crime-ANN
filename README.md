@@ -87,17 +87,3 @@ To develop a predictive model for classifying crimes based on historical data us
 - Deploy as an API or interactive dashboard for crime analysts
 
 ---
-
-##  Project Structure
-
-
-Chicago-Crime-ANN/
-
- Chicago_crimes.ipynb         # ANN model training using fastai
- processed.feather            # Optional preprocessed dataset
- README.md                    # Combined research  implementation documentation
- requirements.txt             # Required Python packages
-
-
----
-
