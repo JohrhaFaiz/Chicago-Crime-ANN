@@ -97,3 +97,26 @@ To develop a predictive model for classifying crimes based on historical data us
 - Deploy as an API or interactive dashboard for crime analysts
 
 ---
+
+## Chicago Crime Data Visualization (EDA Notebook)
+
+The notebook 'chicago_crime_charts.ipynb' provides comprehensive **exploratory data analysis (EDA)** for the Chicago crime dataset (2001–present), focusing on visual trends and insights before modeling.
+
+### What It Does:
+- Loads large-scale parquet crime data using **Dask** for memory-efficient processing.
+- Displays data stats and structural overview.
+- Uses **Matplotlib** and **Seaborn** to generate clean, readable charts.
+- Visualizes:
+  - Crime frequency over time
+  - Most common crime types
+  - Hotspot locations
+  - Time-based distributions (by hour, day, etc.)
+
+### Why It Matters:
+This notebook supports the deep learning model by helping:
+- Understand data distributions and patterns
+- Identify influential features for classification
+- Reveal imbalances or anomalies in the dataset
+
+It serves as a powerful visual companion to the ANN training process.
+"""
