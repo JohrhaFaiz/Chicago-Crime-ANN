@@ -100,7 +100,7 @@ To develop a predictive model for classifying crimes based on historical data us
 
 ## Chicago Crime Data Visualization (EDA Notebook)
 
-The notebook 'chicago_crime_charts.ipynb' provides comprehensive **exploratory data analysis (EDA)** for the Chicago crime dataset (2001–present), focusing on visual trends and insights before modeling.
+The notebook 'chicago_crime_charts.ipynb' provides comprehensive **exploratory data analysis (EDA)** for the Chicago crime dataset , focusing on visual trends and insights before modeling.
 
 ### What It Does:
 - Loads large-scale parquet crime data using **Dask** for memory-efficient processing.
