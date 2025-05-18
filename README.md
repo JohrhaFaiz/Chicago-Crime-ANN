@@ -23,9 +23,8 @@ To develop a predictive model for classifying crimes based on historical data us
 > **Note:**  
 > The raw dataset `rows.csv` is not stored locally in this repository.  
 > It is automatically downloaded from the official Chicago data portal using the following command inside the notebook:
-
-```python
 !wget "https://data.cityofchicago.org/api/views/ijzp-q8t2/rows.csv"
+
 
 
 ### Original → Reduced Crime Categories
